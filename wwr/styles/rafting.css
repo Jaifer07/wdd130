@@ -1,0 +1,56 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+
+
+:root {
+ --primary-color: #340068;
+ --secondary-color: #A0C3C5;
+ --heading-font: 'Roboto+Slab', serif;
+ --paragraph-font: 'Inter', sans-serif;
+}
+
+header{
+    font-family:var(--heading-font);
+    color-scheme: #340068;
+}
+
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero {    
+    position: relative;
+    background-image: url(https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting61_1024.jpg) ;
+    width: 100%;
+    height: 400px;       
+    
+}
+
+
+h1 {
+    position:absolute;
+    bottom: 80px;
+    color:antiquewhite;      
+    
+}
+
+
+article{
+    position: absolute;    
+    text-align:left ; 
+    top: 50px ;
+    background:lightskyblue;        
+       
+}
+
+
+article img {
+    float:right;
+    width: 10%;
+    
+}
