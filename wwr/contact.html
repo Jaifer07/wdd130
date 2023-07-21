@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Page</title>
-    <meta name="description" content="About Us page of white water rafting">
+    <title>Contact Us Page</title>
+    <meta name="description" content="The users can find the contact information of the company
+     and ask questions through a form">
     <meta name="author" content="Jaifer Nava">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -23,63 +24,68 @@
   </header>
 <div class="grid">
   <main>
-    <div class="hero">
-        <img src="images/hero.jpg" alt="hero image" width="1000" height="300">
-         
-      <article>
-      <h1>White Water Rafting</h1>
-      <img src="images/happyclient.jpg" alt="happyclient" width="200" height="100">            
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste id repellendus optio non facere
-      neque asperiores est corporis ullam! Minus officia magnam nesciunt sint facilis illum provident,
-      odit amet molestiae.</p>            
-      </article> 
-                   
+    <h3>Contact US</h3>
+
+    <h4>Send Us a message</h4>
+
+    <p>White Water Rafting</p>
+    <p>Phone: 56-989590303</p>
+    <p>Email: <a href="mailto:">nav21005@byui.edu</a></p>
+    <div class= "map">
+      <iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.4517613154703!2d-70.687935025073
+       34!3d-33.38537629418118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c6ecea76d363%3A0x4
+       7d3fdfd30655a54!2s5%20de%20Febrero%204864%2C%208550712%20Conchal%C3%AD%2C%20Regi%C3%B3n%20
+       Metropolitana!5e0!3m2!1ses-419!2scl!4v1689868471310!5m2!1ses-419!2scl" width="600" height="450"
+       style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
-    <section class="history">
-      
-        <h2>History</h2>
-        <img src="images/history.jpg" alt="historyimage" width="200" height="100">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae perspiciatis
-           at magni, molestiae ipsa cumque accusantium? Beatae nesciunt minus accusantium,
-           pariatur fugit praesentium quis! Nobis eveniet sint sunt quam! Lorem ipsum dolor,
-           sit amet consectetur adipisicing elit. Placeat laudantium odio eum voluptatum labore
-           adipisci provident molestias explicabo corrupti vel. Tempore aspernatur quis ad eos 
-           veniam et odio nostrum a.</p>
-
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt magnam neque, vel
-              cupiditate voluptatibus numquam atque sint ad. Rerum sint rem harum a iste repellendus
-              nihil. Tempore corporis iusto magnam. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Saepe modi officia provident assumenda, neque laudantium tempore tempora architecto
-              labore, voluptatum repellat doloribus voluptatem facilis distinctio dolores itaque eaque
-               consequuntur beatae.</p>
-         
-    </section>
+    
     <section>
-    <h2>Aventure Awaits You!</h2> 
-    <div class="adventure">            
-      <figure>  
-        <img src="images/image1.jpg" alt="Bow River Float Trip">
-        <figcaption>Bow River Float Trip</figcaption>
+    <h2>Employees</h2> 
+    <div class="adventure">         
+      
+      <figure>
+        <img src="images/employee1.jpg" alt="Kathy Clark">
+        <figcaption>Kathy Clark, Varuna point level</figcaption>
       </figure>
       <figure>
-        <img src="images/image2.jpg" alt="the Canadian Rockies">
-        <figcaption>The Canadian Rockies</figcaption>
-      </figure>
-      <figure>
-        <img src="images/image3.jpg" alt="At Ayung River, Bali">
-        <figcaption>At Ayung River, Bali</figcaption>
+        <img src="images/employee2.jpg" alt="Bryan Murphy">
+        <figcaption>Bryan Murphy, Temperance level</figcaption>
       </figure>
       <figure> 
-        <img src="images/image4.jpg" alt="Queenstown">
-        <figcaption>Queenstown</figcaption>
+        <img src="images/employee3.jpg" alt="lisa Brown">
+        <figcaption>lisa Brown,Tangora level</figcaption>
       </figure>
       <figure>
-        <img src="images/image5.jpg" alt="Lake Louise">
-        <figcaption>Lake Louise</figcaption>
+        <img src="images/employee4.jpg" alt="Steve Jhonson">
+        <figcaption>Steve Jhonson, Balboa Island level</figcaption>
       </figure> 
     </div>   
-    </section>    
+    </section>
+  <form>
+    <h3>Write us for any inquiry or suggestion</h3>
+    <label for="fname">First name</label>
+    <input type="text" id= "fname" name="fname">
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname">
+    <label for="email">email</label>
+    <input type="email" id="email" name="email">
+    <p></p>Pick one option to know the purpose of your message</p>
+    <input type="radio" id="Ginquiry" name="Ginquiry">
+    <label for="Ginquiry">General inquiry</label>
+    <input type="radio" id="Rquestion" name="Ginquiry">
+    <label for="Rquestion">Reservation question</label>    
+    <input type="radio" id="Wsuggestion" name="Ginquiry">
+    <label for="Wsuggestion">Website Suggestion</label><br><br>
+    <fieldset>
+      <label for="message">The message</label><br>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Please subscribe me to the monthly newsletter</label><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>  
   </main>
 </div>
   <footer>
