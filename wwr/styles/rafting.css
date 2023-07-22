@@ -130,6 +130,42 @@ input {
     height: auto;
   }
 
+  aside {
+    display: flexbox;
+    width: 30rem;   
+    
+    
+    
+  
+  }
+  
+  aside img {
+    width: 600px;;
+    height:auto ;
+    
+    
+  }
+      
+  
+
+  .box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    width: fit-content;
+    
+
+  }
+  
+ 
+    
+
+  .indent {
+    padding-left: 2rem;
+  }
+
   textarea {
     display: block ;    
     font-size: 100%;
